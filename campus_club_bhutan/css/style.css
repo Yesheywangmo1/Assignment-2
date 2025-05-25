@@ -1,0 +1,702 @@
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 3px solid #f0c000;
+}
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.hero {
+    background: url('/images/banner-bhutan.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero .btn {
+    background-color: #f0c000;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.highlights {
+    padding: 40px 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.event-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.event-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.event-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.btn-sm {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.about-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+}
+.about-section h1, .about-section h2 {
+    color: #003366;
+}
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.about-images {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-images img {
+    width: 30%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact-section {
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+.contact-section h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.register-section {
+    padding: 50px 20px;
+    background: #eef4f8;
+}
+.register-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.register-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.register-form button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login-section {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+.login-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.login-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-form button {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.events-section {
+    padding: 50px 20px;
+    background: #f3f8ff;
+}
+.event-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.event-box {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+.event-box img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.event-box h2 {
+    color: #003366;
+    margin: 15px 0 10px;
+}
+.event-box form button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin-login-section {
+    padding: 50px 20px;
+    background: #eef2f7;
+}
+.admin-login-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.admin-login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.admin-login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.admin-login-form button {
+    background: #003366;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.admin-dashboard {
+    padding: 50px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+.admin-dashboard h1 {
+    color: #003366;
+    margin-bottom: 30px;
+}
+.dashboard-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    width: 200px;
+}
+.card h2 {
+    font-size: 36px;
+    color: #f0c000;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #003366;
+    font-weight: 600;
+}
+.dashboard-actions .btn {
+    background-color: #003366;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-secondary {
+    background-color: #005faa;
+}
+.add-event-section {
+    padding: 50px 20px;
+    background: #fff;
+}
+.event-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.event-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.event-form input, .event-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.event-form button {
+    background: #003366;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.attendance-section {
+    padding: 50px 20px;
+    background: #f7f7f7;
+}
+.event-selector {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.event-selector select {
+    padding: 10px;
+    font-size: 16px;
+}
+.attendance-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.attendance-table th, .attendance-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+.attendance-table th {
+    background-color: #003366;
+    color: white;
+}
+.attendance-form button {
+    background: #003366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Global Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar/Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0c000;
+    text-decoration: none;
+}
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.navbar nav ul li a:hover {
+    background-color: #005faa;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Containers and Sections */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section h1, section h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+form button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #005faa;
+}
+
+/* Messages */
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Event Cards (used in homepage and member events) */
+.event-cards, .event-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.event-card, .event-box {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.event-card img, .event-box img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.event-card h3, .event-box h2 {
+    color: #003366;
+    margin-top: 15px;
+}
+.event-card p, .event-box p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.event-card .btn-sm, .event-box form button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+    background-color: #f0c000;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 10px 5px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background-color: #e2af00;
+}
+.btn-secondary {
+    background-color: #005faa;
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: #003f7d;
+}
+
+/* Tables (used in attendance tracking) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #003366;
+    color: white;
+}
+td input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .event-cards, .event-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-card, .event-box {
+        width: 90%;
+    }
+}
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+}
+.register-link a {
+    color: #005faa;
+    font-weight: bold;
+    text-decoration: none;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    margin-top: 10px;
+}
+.footer-links a {
+    color: #f0c000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.faq-section {
+    padding: 50px 20px;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-question {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.faq-question:hover {
+    background-color: #005faa;
+}
+.faq-answer {
+    background-color: #eef3f9;
+    display: none;
+    padding: 15px;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px solid #ccc;
+}
+.terms-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+.terms-section h1, .terms-section h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+.terms-section p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+.terms-section a {
+    color: #005faa;
+    text-decoration: none;
+    font-weight: bold;
+}
+.terms-section a:hover {
+    text-decoration: underline;
+}
+.privacy-section {
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+.privacy-section h1, .privacy-section h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+.privacy-section p, .privacy-section li {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+.privacy-section ul {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.privacy-section a {
+    color: #005faa;
+    font-weight: bold;
+    text-decoration: none;
+}
+.privacy-section a:hover {
+    text-decoration: underline;
+}
